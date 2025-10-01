@@ -12,6 +12,6 @@ function setup()
 
 function draw()
 {
-!background(255,0,255);
-//image(flower,-100,-100);
+!background(255,0,0);
+image(flower,windowHeight,windowWidth);
 }
