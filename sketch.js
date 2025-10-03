@@ -50,14 +50,14 @@ function setup()
 function draw() 
 {
     // Clear the screen
-    background(240, 240, 240);
+    background(orientationX, orientationY, orientationZ);
     
 
     
     // Check if sensors are working
     if (window.sensorsEnabled) 
     {
-        background(rotationX, rotationY, rotationZ);  // Light green when sensors active
+        background(orientationX, orientationY, orientationZ);  // Light green when sensors active
         
         // Update orientation values from device sensors ONLY when enabled
         orientationX = rotationX;
