@@ -63,7 +63,7 @@ function draw()
         orientationY = rotationY;
         orientationZ = rotationZ;
         
-        background(orientationX, orientationY, orientationZ);  // Light green when sensors active
+        background(orientationX, orientationY, 0);  // Light green when sensors active
 
         // NOTE: You can use constrain() to keep values within a specific range
         // Example: orientationX = constrain(rotationX, -90, 90);
