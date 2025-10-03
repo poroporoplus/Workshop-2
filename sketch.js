@@ -50,20 +50,22 @@ function setup()
 function draw() 
 {
     // Clear the screen
-    background(orientationX, orientationY, orientationZ);
+    background(240, 240, 240);
     
 
     
     // Check if sensors are working
     if (window.sensorsEnabled) 
     {
-        background(orientationX.toFixed(1), orientationY.toFixed(1), orientationZ.toFixed(1));  // Light green when sensors active
+        
         
         // Update orientation values from device sensors ONLY when enabled
         orientationX = rotationX;
         orientationY = rotationY;
         orientationZ = rotationZ;
         
+        background(orientationX, orientationY, orientationZ);  // Light green when sensors active
+
         // NOTE: You can use constrain() to keep values within a specific range
         // Example: orientationX = constrain(rotationX, -90, 90);
         // This would limit the X rotation to between -90 and 90 degrees
