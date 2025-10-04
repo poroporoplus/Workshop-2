@@ -62,8 +62,6 @@ function draw()
         orientationX = rotationX;
         orientationY = rotationY;
         orientationZ = rotationZ;
-        
-        background(orientationX, orientationY, orientationZ);  // Light green when sensors active
 
         // NOTE: You can use constrain() to keep values within a specific range
         // Example: orientationX = constrain(rotationX, -90, 90);
@@ -72,6 +70,8 @@ function draw()
         // Learn more: https://p5js.org/reference/p5/constrain/
 
         debug('angles',orientationX,orientationY,orientationZ);
+
+		background(orientationX, orientationY, orientationZ);  // Light green when sensors active
         
         // Display orientation values
         fill(50, 50, 50);  // Dark text
