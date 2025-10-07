@@ -73,23 +73,7 @@ function draw()
 
 		background(orientationX, orientationY, orientationZ);  // Light green when sensors active
         
-        // Display orientation values
-       // fill(50, 50, 50);  // Dark text
-        //textAlign(CENTER, CENTER);
-        
-        // Show current orientation values
-        //textSize(24);
-        //text("Device Orientation", width/2, height/2 - 100);
-        
-        //textSize(20);
-       // text("X (Tilt Forward/Back): " + orientationX.toFixed(1) + "°", width/2, height/2 - 40);
-       // text("Y (Tilt Left/Right): " + orientationY.toFixed(1) + "°", width/2, height/2);
-       // text("Z (Rotation): " + orientationZ.toFixed(1) + "°", width/2, height/2 + 40);
-        
-        // Instructions
-        //textSize(16);
-        //fill(100, 100, 100);
-        //text("Tilt and rotate your device!", width/2, height/2 + 100);
+
     } 
     else 
     {
