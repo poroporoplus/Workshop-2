@@ -69,13 +69,13 @@ function draw()
         // Useful for mapping sensor values to specific ranges for animations or controls
         // Learn more: https://p5js.org/reference/p5/constrain/
 
-        debug('angles',orientationX,orientationY,orientationZ);
+        //debug('angles',orientationX,orientationY,orientationZ);
 
 		background(orientationX, orientationY, orientationZ);  // Light green when sensors active
         
         // Display orientation values
-        fill(50, 50, 50);  // Dark text
-        textAlign(CENTER, CENTER);
+       // fill(50, 50, 50);  // Dark text
+        //textAlign(CENTER, CENTER);
         
         // Show current orientation values
         //textSize(24);
