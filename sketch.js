@@ -3,9 +3,6 @@ let orientationX = 0;
 let orientationY = 0;  
 let orientationZ = 0;  
 
-function preload() {
-  rainbow = loadImage('rainbow.gif');
-}
 
 function setup() 
 {
@@ -38,7 +35,6 @@ function draw()
 
 		background(orientationX, orientationY, orientationZ);  
 
-        image(rainbow, width/2, height/2, 150, 100)
 
     } 
     else 
