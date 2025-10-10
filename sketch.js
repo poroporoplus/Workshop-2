@@ -54,3 +54,8 @@ function touchStarted()
 {
     return false;
 }
+
+function touchEnded() 
+{
+    return false;
+}
