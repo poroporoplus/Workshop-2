@@ -35,6 +35,8 @@ function draw()
 
 		background(orientationX, orientationY, orientationZ);  
 
+        image('rainbow.gif', width/2, height/2, 150, 100)
+
     } 
     else 
     {
