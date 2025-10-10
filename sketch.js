@@ -13,11 +13,15 @@ function setup()
     
     lockGestures();
     
-    enableGyroTap(rainbow.gif, 'Requesting motion sensors...');
+    enableGyroTap('ENABLE MOTION SENSORS', 'Requesting motion sensors...');
     
     textAlign(CENTER, CENTER);
     textSize(32);
     
+}
+
+function preload() {
+  rainbow = loadImage('rainbow.gif');
 }
 
 function draw() 
@@ -35,7 +39,7 @@ function draw()
 
 		background(orientationX, orientationY, orientationZ);  
 
-        
+        image(rainbow, width/2, height/2)
 
     } 
     else 
