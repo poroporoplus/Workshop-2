@@ -35,7 +35,6 @@ function draw()
 
 		background(orientationX, orientationY, orientationZ);  
 
-
     } 
     else 
     {
@@ -52,11 +51,6 @@ function draw()
 }
 
 function touchStarted() 
-{
-    return false;
-}
-
-function touchEnded() 
 {
     return false;
 }
