@@ -38,8 +38,8 @@ function draw()
 
 		background(orientationX, orientationY, orientationZ); 
         
-        let scaleX = width / gif.width;
-        let scaleY = height / gif.height;
+        let scaleX = windowWidthwidth / gif.width;
+        let scaleY = windowHeight / gif.height;
         let scale = max(scaleX, scaleY); 
         
         let scaledWidth = gif.width * scale;
