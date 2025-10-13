@@ -4,7 +4,7 @@ let orientationY = 0;
 let orientationZ = 0;  
 
 function preload() {
-    rainbow = loadImage('rainbow.gif');
+    gif = loadImage('rainbow.gif');
 }
 
 function setup() 
@@ -47,7 +47,7 @@ function draw()
         let x = (width - scaledWidth) / 2;
         let y = (height - scaledHeight) / 2;
         
-        image(rainbow, x, y, scaledWidth, scaledHeight);
+        image(gif, x, y, scaledWidth, scaledHeight);
 
 
     } 
