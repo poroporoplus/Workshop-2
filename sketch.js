@@ -38,7 +38,7 @@ function draw()
 
 		background(orientationX, orientationY, orientationZ); 
         
-        image(gif, windowWidth/2, windowHeight/2, 150, 100);
+        image(gif, width/2, height/2, 150, 100);
 
 
     } 
