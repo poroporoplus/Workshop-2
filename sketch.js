@@ -36,9 +36,19 @@ function draw()
 
         debug('angles',orientationX,orientationY,orientationZ);
 
-		background(orientationX, orientationY, orientationZ);  
+		background(orientationX, orientationY, orientationZ); 
+        
+        let scaleX = width / gif.width;
+        let scaleY = height / gif.height;
+        let scale = max(scaleX, scaleY); 
+        
+        let scaledWidth = gif.width * scale;
+        let scaledHeight = gif.height * scale;
+        let x = (width - scaledWidth) / 2;
+        let y = (height - scaledHeight) / 2;
+        
+        image(rainbow, x, y, scaledWidth, scaledHeight);
 
-        image(rainbow, width/2, height/2, 150, 100)
 
     } 
     else 
